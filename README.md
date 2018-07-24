@@ -23,3 +23,24 @@ TIMEPOP usage:
 Example:
 
 java -jar timepop.jar --recommender="TimePop" --trainfile="toys_amazon/trainingset.tsv" --nItemsRecommended="100" --resultFile="TimePop.tsv" --referringTimestamp="1377820800" 
+
+
+If you find these implementations useful for your research please cite:
+
+> @article{DBLP:journals/corr/abs-1807-04204,   
+>   author    = {Vito Walter Anelli and   
+>                Joseph Trotta and   
+>                Tommaso Di Noia and   
+>                Eugenio Di Sciascio and   
+>                Azzurra Ragone},   
+>   title     = {Time and Local Popularity in top-N Recommendation},   
+>   journal   = {CoRR},   
+>   volume    = {abs/1807.04204},   
+>   year      = {2018},   
+>   url       = {http://arxiv.org/abs/1807.04204},   
+>   archivePrefix = {arXiv},   
+>   eprint    = {1807.04204},   
+>   timestamp = {Mon, 23 Jul 2018 13:39:30 +0200},   
+>   biburl    = {https://dblp.org/rec/bib/journals/corr/abs-1807-04204},   
+>   bibsource = {dblp computer science bibliography, https://dblp.org}   
+> }   
