@@ -4,10 +4,7 @@ TimePop is a simple and efficient algorithm that combines the notion of personal
 The main assumption behind a “most popular” approach is that global popularity is a characteristic influencing all the users.
 In the approach we introduce here, we change this perspective and we analyze a more fine grained personalized version of  popularity by assuming that it is conditioned by the items that a user u already experienced in the past. To this extent, we look at a specific class of neighbors, that we name Precursors, defined as the users who already rated the same items of u in the past.
 
-TIMEPOP
---recommender="TimePop" --trainfile="/home/starlord/Documents/DATASETS/toys_amazon/trainingset.tsv" --nItemsRecommended="100" --resultFile="/home/starlord/Desktop/TimePop.tsv" --referringTimestamp="1377820800" 
-
-usage: utility-name
+TIMEPOP usage:
 
  -b,--beta <arg>                  Beta value for temporal decay
  
@@ -21,5 +18,8 @@ usage: utility-name
  
  -st,--startingTimestamp <arg>    first rating timestamp in the training set
  
- -tf,--trainfile <arg>            Training set path Error in arguments
+ -tf,--trainfile <arg>            Training set path 
 
+Example:
+
+java -jar timepop.jar --recommender="TimePop" --trainfile="toys_amazon/trainingset.tsv" --nItemsRecommended="100" --resultFile="TimePop.tsv" --referringTimestamp="1377820800" 
