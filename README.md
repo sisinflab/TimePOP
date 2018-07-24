@@ -8,15 +8,18 @@ TIMEPOP
 --recommender="TimePop" --trainfile="/home/starlord/Documents/DATASETS/toys_amazon/trainingset.tsv" --nItemsRecommended="100" --resultFile="/home/starlord/Desktop/TimePop.tsv" --referringTimestamp="1377820800" 
 
 usage: utility-name
- -b,--beta <arg>                  Beta value for temporal decay
- -N,--nItemsRecommended <arg>     Number of items recommended
- -rec,--recommender <arg>         Name of recommender
- -rf,--resultFile <arg>           Output result file with recommendations
- -rt,--referringTimestamp <arg>   Last rating timestamp in the training
-                                  set
- -st,--startingTimestamp <arg>    first rating timestamp in the training
-                                  set
- -tf,--trainfile <arg>            Training set path
-Error in arguments
 
-Process finished with exit code 0
+ -b,--beta <arg>                  Beta value for temporal decay
+ 
+ -N,--nItemsRecommended <arg>     Number of items recommended
+ 
+ -rec,--recommender <arg>         Name of recommender
+ 
+ -rf,--resultFile <arg>           Output result file with recommendations
+ 
+ -rt,--referringTimestamp <arg>   Last rating timestamp in the training set
+ 
+ -st,--startingTimestamp <arg>    first rating timestamp in the training set
+ 
+ -tf,--trainfile <arg>            Training set path Error in arguments
+
